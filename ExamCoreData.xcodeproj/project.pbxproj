@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A5BE05219E3C03F00ED6CCB /* SingletonClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A5BE05119E3C03F00ED6CCB /* SingletonClass.m */; };
+		8A5BE05519E3CFB600ED6CCB /* AddDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A5BE05419E3CFB600ED6CCB /* AddDataViewController.m */; };
+		8A5BE05819E3E5A500ED6CCB /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A5BE05719E3E5A500ED6CCB /* LoginViewController.m */; };
 		8A93A0BD19E2AF9C0071C972 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A93A0BC19E2AF9C0071C972 /* main.m */; };
 		8A93A0C019E2AF9C0071C972 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A93A0BF19E2AF9C0071C972 /* AppDelegate.m */; };
 		8A93A0C319E2AF9C0071C972 /* ExamCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8A93A0C119E2AF9C0071C972 /* ExamCoreData.xcdatamodeld */; };
@@ -15,6 +18,10 @@
 		8A93A0CB19E2AF9C0071C972 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A93A0CA19E2AF9C0071C972 /* Images.xcassets */; };
 		8A93A0CE19E2AF9C0071C972 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A93A0CC19E2AF9C0071C972 /* LaunchScreen.xib */; };
 		8A93A0DA19E2AF9C0071C972 /* ExamCoreDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A93A0D919E2AF9C0071C972 /* ExamCoreDataTests.m */; };
+		8A93A0E519E2AFA70071C972 /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A93A0E419E2AFA70071C972 /* MainTableViewController.m */; };
+		8A93A0EA19E2B3130071C972 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A93A0E919E2B3130071C972 /* CoreData.framework */; };
+		8A93A0F019E2B7340071C972 /* DataFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A93A0EF19E2B7340071C972 /* DataFile.m */; };
+		8A93A0F319E2BE630071C972 /* UpdateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A93A0F219E2BE630071C972 /* UpdateViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +35,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8A5BE05019E3C03F00ED6CCB /* SingletonClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingletonClass.h; sourceTree = "<group>"; };
+		8A5BE05119E3C03F00ED6CCB /* SingletonClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingletonClass.m; sourceTree = "<group>"; };
+		8A5BE05319E3CFB600ED6CCB /* AddDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddDataViewController.h; sourceTree = "<group>"; };
+		8A5BE05419E3CFB600ED6CCB /* AddDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddDataViewController.m; sourceTree = "<group>"; };
+		8A5BE05619E3E5A500ED6CCB /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		8A5BE05719E3E5A500ED6CCB /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		8A93A0B719E2AF9C0071C972 /* ExamCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExamCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A93A0BB19E2AF9C0071C972 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A93A0BC19E2AF9C0071C972 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -42,6 +55,13 @@
 		8A93A0D319E2AF9C0071C972 /* ExamCoreDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExamCoreDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A93A0D819E2AF9C0071C972 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A93A0D919E2AF9C0071C972 /* ExamCoreDataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExamCoreDataTests.m; sourceTree = "<group>"; };
+		8A93A0E319E2AFA70071C972 /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
+		8A93A0E419E2AFA70071C972 /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
+		8A93A0E919E2B3130071C972 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		8A93A0EE19E2B7340071C972 /* DataFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataFile.h; sourceTree = "<group>"; };
+		8A93A0EF19E2B7340071C972 /* DataFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataFile.m; sourceTree = "<group>"; };
+		8A93A0F119E2BE630071C972 /* UpdateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpdateViewController.h; sourceTree = "<group>"; };
+		8A93A0F219E2BE630071C972 /* UpdateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpdateViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A93A0EA19E2B3130071C972 /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +86,13 @@
 		8A93A0AE19E2AF9C0071C972 = {
 			isa = PBXGroup;
 			children = (
+				8A5BE05019E3C03F00ED6CCB /* SingletonClass.h */,
+				8A5BE05119E3C03F00ED6CCB /* SingletonClass.m */,
+				8A93A0EE19E2B7340071C972 /* DataFile.h */,
+				8A93A0EF19E2B7340071C972 /* DataFile.m */,
+				8A93A0E919E2B3130071C972 /* CoreData.framework */,
+				8A93A0E319E2AFA70071C972 /* MainTableViewController.h */,
+				8A93A0E419E2AFA70071C972 /* MainTableViewController.m */,
 				8A93A0B919E2AF9C0071C972 /* ExamCoreData */,
 				8A93A0D619E2AF9C0071C972 /* ExamCoreDataTests */,
 				8A93A0B819E2AF9C0071C972 /* Products */,
@@ -88,6 +116,12 @@
 				8A93A0C419E2AF9C0071C972 /* ViewController.h */,
 				8A93A0C519E2AF9C0071C972 /* ViewController.m */,
 				8A93A0C719E2AF9C0071C972 /* Main.storyboard */,
+				8A93A0F119E2BE630071C972 /* UpdateViewController.h */,
+				8A93A0F219E2BE630071C972 /* UpdateViewController.m */,
+				8A5BE05319E3CFB600ED6CCB /* AddDataViewController.h */,
+				8A5BE05419E3CFB600ED6CCB /* AddDataViewController.m */,
+				8A5BE05619E3E5A500ED6CCB /* LoginViewController.h */,
+				8A5BE05719E3E5A500ED6CCB /* LoginViewController.m */,
 				8A93A0CA19E2AF9C0071C972 /* Images.xcassets */,
 				8A93A0CC19E2AF9C0071C972 /* LaunchScreen.xib */,
 				8A93A0C119E2AF9C0071C972 /* ExamCoreData.xcdatamodeld */,
@@ -224,7 +258,13 @@
 			files = (
 				8A93A0C019E2AF9C0071C972 /* AppDelegate.m in Sources */,
 				8A93A0C319E2AF9C0071C972 /* ExamCoreData.xcdatamodeld in Sources */,
+				8A5BE05519E3CFB600ED6CCB /* AddDataViewController.m in Sources */,
 				8A93A0C619E2AF9C0071C972 /* ViewController.m in Sources */,
+				8A5BE05819E3E5A500ED6CCB /* LoginViewController.m in Sources */,
+				8A93A0F319E2BE630071C972 /* UpdateViewController.m in Sources */,
+				8A5BE05219E3C03F00ED6CCB /* SingletonClass.m in Sources */,
+				8A93A0F019E2B7340071C972 /* DataFile.m in Sources */,
+				8A93A0E519E2AFA70071C972 /* MainTableViewController.m in Sources */,
 				8A93A0BD19E2AF9C0071C972 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +456,7 @@
 				8A93A0DF19E2AF9C0071C972 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8A93A0E019E2AF9C0071C972 /* Build configuration list for PBXNativeTarget "ExamCoreDataTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +465,7 @@
 				8A93A0E219E2AF9C0071C972 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
